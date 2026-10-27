@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f6f8;
+  color: #1c2430;
+}
+main { max-width: 420px; margin: 12vh auto; padding: 0 16px; }
+.cartao { background: #fff; border: 1px solid #dde1e7; border-radius: 8px; padding: 24px; }
+h1 { margin: 0 0 16px; font-size: 1.5rem; }
+label { display: block; margin-bottom: 12px; font-size: 0.9rem; }
+input { display: block; width: 100%; margin-top: 4px; padding: 8px; border: 1px solid #c3c9d2; border-radius: 6px; font: inherit; }
+button { padding: 8px 16px; border: 0; border-radius: 6px; background: #e8710a; color: #fff; font: inherit; cursor: pointer; }
+button:disabled { opacity: 0.6; cursor: default; }
+.erro { color: #b3261e; font-size: 0.9rem; }
